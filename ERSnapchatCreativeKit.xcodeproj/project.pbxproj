@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170060D3A09BDB66E427494F /* Pods_ERSnapchatCreativeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE80C930375BE74E5D8B76E0 /* Pods_ERSnapchatCreativeKit.framework */; };
+		3A58095AFE3079A1EAB0324D /* Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FE7CBCFCB02D1EF2D4E095 /* Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework */; };
+		7E7BDD30911611FDCA8F58BC /* Pods_ERSnapchatCreativeKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07CCDABE882CB8CF9938AC6 /* Pods_ERSnapchatCreativeKitTests.framework */; };
+		938FFA7426653941008C250A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FFA7326653941008C250A /* AppDelegate.swift */; };
+		938FFA7626653941008C250A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FFA7526653941008C250A /* SceneDelegate.swift */; };
+		938FFA7826653941008C250A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FFA7726653941008C250A /* ViewController.swift */; };
+		938FFA7B26653941008C250A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938FFA7926653941008C250A /* Main.storyboard */; };
+		938FFA7D26653945008C250A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938FFA7C26653945008C250A /* Assets.xcassets */; };
+		938FFA8026653945008C250A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938FFA7E26653945008C250A /* LaunchScreen.storyboard */; };
+		938FFA8B26653946008C250A /* ERSnapchatCreativeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FFA8A26653946008C250A /* ERSnapchatCreativeKitTests.swift */; };
+		938FFA9626653946008C250A /* ERSnapchatCreativeKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FFA9526653946008C250A /* ERSnapchatCreativeKitUITests.swift */; };
+		938FFAA526666915008C250A /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 938FFAA426666915008C250A /* img.jpg */; };
+		938FFAA9266681E7008C250A /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 938FFAA8266681E7008C250A /* video.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		938FFA8726653946008C250A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938FFA6826653941008C250A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938FFA6F26653941008C250A;
+			remoteInfo = ERSnapchatCreativeKit;
+		};
+		938FFA9226653946008C250A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938FFA6826653941008C250A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938FFA6F26653941008C250A;
+			remoteInfo = ERSnapchatCreativeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03369074CE24EDBADC2F7E33 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig"; path = "Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		076D46D6A9D0363CF320D0A3 /* Pods-ERSnapchatCreativeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERSnapchatCreativeKitTests.debug.xcconfig"; path = "Target Support Files/Pods-ERSnapchatCreativeKitTests/Pods-ERSnapchatCreativeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F0BFADDC643319D7A2E0AC9 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C8BE625C708B91829AC5DCD /* Pods-ERSnapchatCreativeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERSnapchatCreativeKit.release.xcconfig"; path = "Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit.release.xcconfig"; sourceTree = "<group>"; };
+		67753E3756873365E40B9961 /* Pods-ERSnapchatCreativeKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERSnapchatCreativeKitTests.release.xcconfig"; path = "Target Support Files/Pods-ERSnapchatCreativeKitTests/Pods-ERSnapchatCreativeKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		69F5915D98BD61F1BB5B0766 /* Pods-ERSnapchatCreativeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERSnapchatCreativeKit.debug.xcconfig"; path = "Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit.debug.xcconfig"; sourceTree = "<group>"; };
+		938FFA7026653941008C250A /* ERSnapchatCreativeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERSnapchatCreativeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938FFA7326653941008C250A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		938FFA7526653941008C250A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		938FFA7726653941008C250A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		938FFA7A26653941008C250A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		938FFA7C26653945008C250A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		938FFA7F26653945008C250A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		938FFA8126653945008C250A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938FFA8626653946008C250A /* ERSnapchatCreativeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERSnapchatCreativeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938FFA8A26653946008C250A /* ERSnapchatCreativeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERSnapchatCreativeKitTests.swift; sourceTree = "<group>"; };
+		938FFA8C26653946008C250A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938FFA9126653946008C250A /* ERSnapchatCreativeKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERSnapchatCreativeKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938FFA9526653946008C250A /* ERSnapchatCreativeKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERSnapchatCreativeKitUITests.swift; sourceTree = "<group>"; };
+		938FFA9726653946008C250A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938FFAA426666915008C250A /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
+		938FFAA8266681E7008C250A /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		CE80C930375BE74E5D8B76E0 /* Pods_ERSnapchatCreativeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERSnapchatCreativeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FE7CBCFCB02D1EF2D4E095 /* Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07CCDABE882CB8CF9938AC6 /* Pods_ERSnapchatCreativeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERSnapchatCreativeKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		938FFA6D26653941008C250A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170060D3A09BDB66E427494F /* Pods_ERSnapchatCreativeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938FFA8326653946008C250A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7BDD30911611FDCA8F58BC /* Pods_ERSnapchatCreativeKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938FFA8E26653946008C250A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A58095AFE3079A1EAB0324D /* Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C35D79310092844F631845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69F5915D98BD61F1BB5B0766 /* Pods-ERSnapchatCreativeKit.debug.xcconfig */,
+				4C8BE625C708B91829AC5DCD /* Pods-ERSnapchatCreativeKit.release.xcconfig */,
+				1F0BFADDC643319D7A2E0AC9 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig */,
+				03369074CE24EDBADC2F7E33 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig */,
+				076D46D6A9D0363CF320D0A3 /* Pods-ERSnapchatCreativeKitTests.debug.xcconfig */,
+				67753E3756873365E40B9961 /* Pods-ERSnapchatCreativeKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		938FFA6726653941008C250A = {
+			isa = PBXGroup;
+			children = (
+				938FFA7226653941008C250A /* ERSnapchatCreativeKit */,
+				938FFA8926653946008C250A /* ERSnapchatCreativeKitTests */,
+				938FFA9426653946008C250A /* ERSnapchatCreativeKitUITests */,
+				938FFA7126653941008C250A /* Products */,
+				49C35D79310092844F631845 /* Pods */,
+				A6F2432190DD51B3CE63EE3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		938FFA7126653941008C250A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938FFA7026653941008C250A /* ERSnapchatCreativeKit.app */,
+				938FFA8626653946008C250A /* ERSnapchatCreativeKitTests.xctest */,
+				938FFA9126653946008C250A /* ERSnapchatCreativeKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		938FFA7226653941008C250A /* ERSnapchatCreativeKit */ = {
+			isa = PBXGroup;
+			children = (
+				938FFAA326666905008C250A /* Resources */,
+				938FFA7326653941008C250A /* AppDelegate.swift */,
+				938FFA7526653941008C250A /* SceneDelegate.swift */,
+				938FFA7726653941008C250A /* ViewController.swift */,
+				938FFA7926653941008C250A /* Main.storyboard */,
+				938FFA7C26653945008C250A /* Assets.xcassets */,
+				938FFA7E26653945008C250A /* LaunchScreen.storyboard */,
+				938FFA8126653945008C250A /* Info.plist */,
+			);
+			path = ERSnapchatCreativeKit;
+			sourceTree = "<group>";
+		};
+		938FFA8926653946008C250A /* ERSnapchatCreativeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				938FFA8A26653946008C250A /* ERSnapchatCreativeKitTests.swift */,
+				938FFA8C26653946008C250A /* Info.plist */,
+			);
+			path = ERSnapchatCreativeKitTests;
+			sourceTree = "<group>";
+		};
+		938FFA9426653946008C250A /* ERSnapchatCreativeKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				938FFA9526653946008C250A /* ERSnapchatCreativeKitUITests.swift */,
+				938FFA9726653946008C250A /* Info.plist */,
+			);
+			path = ERSnapchatCreativeKitUITests;
+			sourceTree = "<group>";
+		};
+		938FFAA326666905008C250A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				938FFAA8266681E7008C250A /* video.mp4 */,
+				938FFAA426666915008C250A /* img.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6F2432190DD51B3CE63EE3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE80C930375BE74E5D8B76E0 /* Pods_ERSnapchatCreativeKit.framework */,
+				D2FE7CBCFCB02D1EF2D4E095 /* Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework */,
+				F07CCDABE882CB8CF9938AC6 /* Pods_ERSnapchatCreativeKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		938FFA6F26653941008C250A /* ERSnapchatCreativeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938FFA9A26653946008C250A /* Build configuration list for PBXNativeTarget "ERSnapchatCreativeKit" */;
+			buildPhases = (
+				D23AE3294B835F3504103C24 /* [CP] Check Pods Manifest.lock */,
+				938FFA6C26653941008C250A /* Sources */,
+				938FFA6D26653941008C250A /* Frameworks */,
+				938FFA6E26653941008C250A /* Resources */,
+				8A64DF2A08B07CA8E3F59250 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERSnapchatCreativeKit;
+			productName = ERSnapchatCreativeKit;
+			productReference = 938FFA7026653941008C250A /* ERSnapchatCreativeKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		938FFA8526653946008C250A /* ERSnapchatCreativeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938FFA9D26653946008C250A /* Build configuration list for PBXNativeTarget "ERSnapchatCreativeKitTests" */;
+			buildPhases = (
+				C97EA424B99774E3A17F77AE /* [CP] Check Pods Manifest.lock */,
+				938FFA8226653946008C250A /* Sources */,
+				938FFA8326653946008C250A /* Frameworks */,
+				938FFA8426653946008C250A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938FFA8826653946008C250A /* PBXTargetDependency */,
+			);
+			name = ERSnapchatCreativeKitTests;
+			productName = ERSnapchatCreativeKitTests;
+			productReference = 938FFA8626653946008C250A /* ERSnapchatCreativeKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		938FFA9026653946008C250A /* ERSnapchatCreativeKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938FFAA026653946008C250A /* Build configuration list for PBXNativeTarget "ERSnapchatCreativeKitUITests" */;
+			buildPhases = (
+				DC87714A4A8F261507E4D7CD /* [CP] Check Pods Manifest.lock */,
+				938FFA8D26653946008C250A /* Sources */,
+				938FFA8E26653946008C250A /* Frameworks */,
+				938FFA8F26653946008C250A /* Resources */,
+				D521AE127DC6725874E60844 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938FFA9326653946008C250A /* PBXTargetDependency */,
+			);
+			name = ERSnapchatCreativeKitUITests;
+			productName = ERSnapchatCreativeKitUITests;
+			productReference = 938FFA9126653946008C250A /* ERSnapchatCreativeKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		938FFA6826653941008C250A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					938FFA6F26653941008C250A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					938FFA8526653946008C250A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 938FFA6F26653941008C250A;
+					};
+					938FFA9026653946008C250A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 938FFA6F26653941008C250A;
+					};
+				};
+			};
+			buildConfigurationList = 938FFA6B26653941008C250A /* Build configuration list for PBXProject "ERSnapchatCreativeKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 938FFA6726653941008C250A;
+			productRefGroup = 938FFA7126653941008C250A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				938FFA6F26653941008C250A /* ERSnapchatCreativeKit */,
+				938FFA8526653946008C250A /* ERSnapchatCreativeKitTests */,
+				938FFA9026653946008C250A /* ERSnapchatCreativeKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		938FFA6E26653941008C250A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938FFAA526666915008C250A /* img.jpg in Resources */,
+				938FFA8026653945008C250A /* LaunchScreen.storyboard in Resources */,
+				938FFA7D26653945008C250A /* Assets.xcassets in Resources */,
+				938FFA7B26653941008C250A /* Main.storyboard in Resources */,
+				938FFAA9266681E7008C250A /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938FFA8426653946008C250A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938FFA8F26653946008C250A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A64DF2A08B07CA8E3F59250 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97EA424B99774E3A17F77AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ERSnapchatCreativeKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23AE3294B835F3504103C24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ERSnapchatCreativeKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D521AE127DC6725874E60844 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC87714A4A8F261507E4D7CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		938FFA6C26653941008C250A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938FFA7826653941008C250A /* ViewController.swift in Sources */,
+				938FFA7426653941008C250A /* AppDelegate.swift in Sources */,
+				938FFA7626653941008C250A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938FFA8226653946008C250A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938FFA8B26653946008C250A /* ERSnapchatCreativeKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938FFA8D26653946008C250A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938FFA9626653946008C250A /* ERSnapchatCreativeKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		938FFA8826653946008C250A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938FFA6F26653941008C250A /* ERSnapchatCreativeKit */;
+			targetProxy = 938FFA8726653946008C250A /* PBXContainerItemProxy */;
+		};
+		938FFA9326653946008C250A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938FFA6F26653941008C250A /* ERSnapchatCreativeKit */;
+			targetProxy = 938FFA9226653946008C250A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		938FFA7926653941008C250A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938FFA7A26653941008C250A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		938FFA7E26653945008C250A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938FFA7F26653945008C250A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		938FFA9826653946008C250A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		938FFA9926653946008C250A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		938FFA9B26653946008C250A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F5915D98BD61F1BB5B0766 /* Pods-ERSnapchatCreativeKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H456FFSK68;
+				INFOPLIST_FILE = ERSnapchatCreativeKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERSnapchatCreativeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		938FFA9C26653946008C250A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8BE625C708B91829AC5DCD /* Pods-ERSnapchatCreativeKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H456FFSK68;
+				INFOPLIST_FILE = ERSnapchatCreativeKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERSnapchatCreativeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		938FFA9E26653946008C250A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076D46D6A9D0363CF320D0A3 /* Pods-ERSnapchatCreativeKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H456FFSK68;
+				INFOPLIST_FILE = ERSnapchatCreativeKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERSnapchatCreativeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERSnapchatCreativeKit.app/ERSnapchatCreativeKit";
+			};
+			name = Debug;
+		};
+		938FFA9F26653946008C250A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67753E3756873365E40B9961 /* Pods-ERSnapchatCreativeKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H456FFSK68;
+				INFOPLIST_FILE = ERSnapchatCreativeKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERSnapchatCreativeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERSnapchatCreativeKit.app/ERSnapchatCreativeKit";
+			};
+			name = Release;
+		};
+		938FFAA126653946008C250A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0BFADDC643319D7A2E0AC9 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H456FFSK68;
+				INFOPLIST_FILE = ERSnapchatCreativeKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERSnapchatCreativeKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ERSnapchatCreativeKit;
+			};
+			name = Debug;
+		};
+		938FFAA226653946008C250A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03369074CE24EDBADC2F7E33 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H456FFSK68;
+				INFOPLIST_FILE = ERSnapchatCreativeKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERSnapchatCreativeKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ERSnapchatCreativeKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938FFA6B26653941008C250A /* Build configuration list for PBXProject "ERSnapchatCreativeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938FFA9826653946008C250A /* Debug */,
+				938FFA9926653946008C250A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938FFA9A26653946008C250A /* Build configuration list for PBXNativeTarget "ERSnapchatCreativeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938FFA9B26653946008C250A /* Debug */,
+				938FFA9C26653946008C250A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938FFA9D26653946008C250A /* Build configuration list for PBXNativeTarget "ERSnapchatCreativeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938FFA9E26653946008C250A /* Debug */,
+				938FFA9F26653946008C250A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938FFAA026653946008C250A /* Build configuration list for PBXNativeTarget "ERSnapchatCreativeKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938FFAA126653946008C250A /* Debug */,
+				938FFAA226653946008C250A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 938FFA6826653941008C250A /* Project object */;
+}

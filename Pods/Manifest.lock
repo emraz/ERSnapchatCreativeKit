@@ -1,0 +1,18 @@
+PODS:
+  - SnapSDK/SCSDKCoreKit (1.10.0)
+  - SnapSDK/SCSDKCreativeKit (1.10.0):
+    - SnapSDK/SCSDKCoreKit
+
+DEPENDENCIES:
+  - SnapSDK/SCSDKCreativeKit
+
+SPEC REPOS:
+  trunk:
+    - SnapSDK
+
+SPEC CHECKSUMS:
+  SnapSDK: 6c4042a5a953d2c90eeafe5a10b863b9ee0857b7
+
+PODFILE CHECKSUM: 9bbb37f7bad260764340dc0a9081b2e840ced6f7
+
+COCOAPODS: 1.10.1

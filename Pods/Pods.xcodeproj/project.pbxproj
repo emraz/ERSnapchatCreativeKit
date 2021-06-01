@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A3E930B47B3509C9DC0EBBC4C0A5D9C /* Build configuration list for PBXAggregateTarget "SnapSDK" */;
+			buildPhases = (
+				F772B2C8C34CF210EE913C01ACB399DE /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = SnapSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0AE255DF72FC8459DAF5FD50085770FB /* Pods-ERSnapchatCreativeKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DFFB3A58926FC1082AE205C404E154 /* Pods-ERSnapchatCreativeKitTests-dummy.m */; };
+		289AA7B8C1BDB56A57C267C5A34961DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		767EBC26FC093E14B4583BBB50173C22 /* Pods-ERSnapchatCreativeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7E9C67509D8DD8735C5D8B6A60547 /* Pods-ERSnapchatCreativeKit-dummy.m */; };
+		992F4C09CAE0D39C6C26DB8382C8B620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A729F75624CFC8C9D398FE9DDFD0B1FA /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3556D8F5111C568446E86E55841916A2 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FD988D23F621F0A57F4BE6B32DB23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EFA8DB33EC0E7E20DFD50FB576A49F08 /* Pods-ERSnapchatCreativeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E660161B3E36A05556D1D815922F1CA3 /* Pods-ERSnapchatCreativeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FED5B014553100CED545A4C606E79BE3 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3510A3D147D37ECC7F3DAABEBBAFEF /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-dummy.m */; };
+		FF3430BC120561DF57DD3DDC997C7B6B /* Pods-ERSnapchatCreativeKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AD443C65DDA1F0FE99C9DBD2366B6B /* Pods-ERSnapchatCreativeKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46CA65F60608F0DC93CF7AA92649B506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC460828FF0F2F76C86CA020169EDB5F;
+			remoteInfo = SnapSDK;
+		};
+		BB071B861235BDAA78929D51A9A3B2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84F5EAE8EF7784BE32653E7149EA646;
+			remoteInfo = "Pods-ERSnapchatCreativeKit";
+		};
+		D90B49CB563871773BE33373FA8B9EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC460828FF0F2F76C86CA020169EDB5F;
+			remoteInfo = SnapSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072C36BDCFE32256DB5A943595813206 /* SnapSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SnapSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		10DFFB3A58926FC1082AE205C404E154 /* Pods-ERSnapchatCreativeKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ERSnapchatCreativeKitTests-dummy.m"; sourceTree = "<group>"; };
+		1A82A11418DEC085AA99A865F58F0A17 /* Pods-ERSnapchatCreativeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERSnapchatCreativeKit.release.xcconfig"; sourceTree = "<group>"; };
+		1AC30B3FD3E6B88A24456D3417232EDC /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.modulemap"; sourceTree = "<group>"; };
+		23F9E8E3B6679987451ECB10D983BB54 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		245589171DB57299F9BE24BAB54B7602 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-frameworks.sh"; sourceTree = "<group>"; };
+		252628632FC4E39A107EC7468E01BE0F /* Pods-ERSnapchatCreativeKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERSnapchatCreativeKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25C348F58B797EE4E5127D91AD853B4E /* Pods-ERSnapchatCreativeKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ERSnapchatCreativeKitTests.modulemap"; sourceTree = "<group>"; };
+		2BDBBDCD13776077EE53DEF395E49CDC /* Pods-ERSnapchatCreativeKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERSnapchatCreativeKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BE699B37FB7F0BCD2E8A97FFC1CF2DC /* Pods_ERSnapchatCreativeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ERSnapchatCreativeKit.framework; path = "Pods-ERSnapchatCreativeKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3556D8F5111C568446E86E55841916A2 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-umbrella.h"; sourceTree = "<group>"; };
+		45E83EE13DDA41213051BA07C87339F2 /* Pods-ERSnapchatCreativeKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ERSnapchatCreativeKit-frameworks.sh"; sourceTree = "<group>"; };
+		47D7E9C67509D8DD8735C5D8B6A60547 /* Pods-ERSnapchatCreativeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ERSnapchatCreativeKit-dummy.m"; sourceTree = "<group>"; };
+		675667D62C40C1602EE774C76825E9B1 /* SnapSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapSDK.release.xcconfig; sourceTree = "<group>"; };
+		6869CEDB576287012034E9EAFAAB6C41 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A88CAC9CD01FB8E574B844B557E2B61 /* Pods-ERSnapchatCreativeKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERSnapchatCreativeKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6EBA5E0503F5F8323AD0998D70388AC3 /* Pods_ERSnapchatCreativeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ERSnapchatCreativeKitTests.framework; path = "Pods-ERSnapchatCreativeKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		758B06780324429586D9988C9EF3026C /* Pods-ERSnapchatCreativeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ERSnapchatCreativeKit.modulemap"; sourceTree = "<group>"; };
+		7D3510A3D147D37ECC7F3DAABEBBAFEF /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-dummy.m"; sourceTree = "<group>"; };
+		87AD443C65DDA1F0FE99C9DBD2366B6B /* Pods-ERSnapchatCreativeKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ERSnapchatCreativeKitTests-umbrella.h"; sourceTree = "<group>"; };
+		88116C2270BB4A4EC7E6E07F870BC4A3 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-Info.plist"; sourceTree = "<group>"; };
+		8ABEA27FCE436B5F77940DC1D1ED2CF9 /* SCSDKCreativeKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SCSDKCreativeKit.xcframework; sourceTree = "<group>"; };
+		8DFB4689F6FC33C4E9A18DBC09099709 /* Pods-ERSnapchatCreativeKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERSnapchatCreativeKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8DEC7CDDD181C36E0563C1755B3A816 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA620C6CF7734129B73346DF1837885A /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADEDBBFF2E559D35E43236BAAD7DD9B8 /* SCSDKCoreKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SCSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		BC31622E71DD11D7BF311FB1D6D8FB0E /* Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework; path = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2297DD1E6824EB602C1EC27590137B /* SnapSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapSDK.debug.xcconfig; sourceTree = "<group>"; };
+		C4B2383CA1C4677AC1996E85970E804B /* Pods-ERSnapchatCreativeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERSnapchatCreativeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC40E3CF25BB92B90EB0D5DD65CBCF8 /* Pods-ERSnapchatCreativeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERSnapchatCreativeKit-Info.plist"; sourceTree = "<group>"; };
+		D7D918BC522209E9D65AC2BEA18ACDAA /* Pods-ERSnapchatCreativeKitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERSnapchatCreativeKitTests-Info.plist"; sourceTree = "<group>"; };
+		E3B07629FBC64459DDD9E9262F37F79F /* Pods-ERSnapchatCreativeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERSnapchatCreativeKit.debug.xcconfig"; sourceTree = "<group>"; };
+		E539CB0580359C4F9E365ED0F85B5701 /* Pods-ERSnapchatCreativeKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERSnapchatCreativeKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		E660161B3E36A05556D1D815922F1CA3 /* Pods-ERSnapchatCreativeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ERSnapchatCreativeKit-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB31C16D751B1E9BB4753EA0D034679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992F4C09CAE0D39C6C26DB8382C8B620 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC06B82E5D3117AB91E2CC8DC64AAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FD988D23F621F0A57F4BE6B32DB23A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B43D8C2C73504656DF80211551D09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289AA7B8C1BDB56A57C267C5A34961DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FFDE381E3E0C12412D9F50BBDB034E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADEDBBFF2E559D35E43236BAAD7DD9B8 /* SCSDKCoreKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E4042C65CE881862D7DCE653D476BBD /* SnapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FDF159D51DD33586B3CBB131B7136213 /* SCSDKCoreKit */,
+				33AF67C503F09E3F4351AE0816B9FB78 /* SCSDKCreativeKit */,
+				F4121CD9A7D79798959CD7DCDE33989E /* Support Files */,
+			);
+			name = SnapSDK;
+			path = SnapSDK;
+			sourceTree = "<group>";
+		};
+		300AD5EF21B1CDE0C95B95FD38C5F863 /* Pods-ERSnapchatCreativeKit */ = {
+			isa = PBXGroup;
+			children = (
+				758B06780324429586D9988C9EF3026C /* Pods-ERSnapchatCreativeKit.modulemap */,
+				2BDBBDCD13776077EE53DEF395E49CDC /* Pods-ERSnapchatCreativeKit-acknowledgements.markdown */,
+				8DFB4689F6FC33C4E9A18DBC09099709 /* Pods-ERSnapchatCreativeKit-acknowledgements.plist */,
+				47D7E9C67509D8DD8735C5D8B6A60547 /* Pods-ERSnapchatCreativeKit-dummy.m */,
+				45E83EE13DDA41213051BA07C87339F2 /* Pods-ERSnapchatCreativeKit-frameworks.sh */,
+				CCC40E3CF25BB92B90EB0D5DD65CBCF8 /* Pods-ERSnapchatCreativeKit-Info.plist */,
+				E660161B3E36A05556D1D815922F1CA3 /* Pods-ERSnapchatCreativeKit-umbrella.h */,
+				E3B07629FBC64459DDD9E9262F37F79F /* Pods-ERSnapchatCreativeKit.debug.xcconfig */,
+				1A82A11418DEC085AA99A865F58F0A17 /* Pods-ERSnapchatCreativeKit.release.xcconfig */,
+			);
+			name = "Pods-ERSnapchatCreativeKit";
+			path = "Target Support Files/Pods-ERSnapchatCreativeKit";
+			sourceTree = "<group>";
+		};
+		33AF67C503F09E3F4351AE0816B9FB78 /* SCSDKCreativeKit */ = {
+			isa = PBXGroup;
+			children = (
+				83C32BF26AA53CC5C3369FF39FFA4589 /* Frameworks */,
+			);
+			name = SCSDKCreativeKit;
+			sourceTree = "<group>";
+		};
+		386B2BCEC314647444FEC6281285EDBD /* Pods-ERSnapchatCreativeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				25C348F58B797EE4E5127D91AD853B4E /* Pods-ERSnapchatCreativeKitTests.modulemap */,
+				252628632FC4E39A107EC7468E01BE0F /* Pods-ERSnapchatCreativeKitTests-acknowledgements.markdown */,
+				6A88CAC9CD01FB8E574B844B557E2B61 /* Pods-ERSnapchatCreativeKitTests-acknowledgements.plist */,
+				10DFFB3A58926FC1082AE205C404E154 /* Pods-ERSnapchatCreativeKitTests-dummy.m */,
+				D7D918BC522209E9D65AC2BEA18ACDAA /* Pods-ERSnapchatCreativeKitTests-Info.plist */,
+				87AD443C65DDA1F0FE99C9DBD2366B6B /* Pods-ERSnapchatCreativeKitTests-umbrella.h */,
+				C4B2383CA1C4677AC1996E85970E804B /* Pods-ERSnapchatCreativeKitTests.debug.xcconfig */,
+				E539CB0580359C4F9E365ED0F85B5701 /* Pods-ERSnapchatCreativeKitTests.release.xcconfig */,
+			);
+			name = "Pods-ERSnapchatCreativeKitTests";
+			path = "Target Support Files/Pods-ERSnapchatCreativeKitTests";
+			sourceTree = "<group>";
+		};
+		39486C1FA4DCCD6C6B36CFA648D23363 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E4042C65CE881862D7DCE653D476BBD /* SnapSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C59CC5D7EE6F90952CD5082745F3432 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				300AD5EF21B1CDE0C95B95FD38C5F863 /* Pods-ERSnapchatCreativeKit */,
+				E5970177B1CCB7E55730A4AAA90417A3 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests */,
+				386B2BCEC314647444FEC6281285EDBD /* Pods-ERSnapchatCreativeKitTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		83C32BF26AA53CC5C3369FF39FFA4589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABEA27FCE436B5F77940DC1D1ED2CF9 /* SCSDKCreativeKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				39486C1FA4DCCD6C6B36CFA648D23363 /* Pods */,
+				EC7702C353F95E41A5A064924CC6DA69 /* Products */,
+				6C59CC5D7EE6F90952CD5082745F3432 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5970177B1CCB7E55730A4AAA90417A3 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC30B3FD3E6B88A24456D3417232EDC /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.modulemap */,
+				6869CEDB576287012034E9EAFAAB6C41 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-acknowledgements.markdown */,
+				AA620C6CF7734129B73346DF1837885A /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-acknowledgements.plist */,
+				7D3510A3D147D37ECC7F3DAABEBBAFEF /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-dummy.m */,
+				245589171DB57299F9BE24BAB54B7602 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-frameworks.sh */,
+				88116C2270BB4A4EC7E6E07F870BC4A3 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-Info.plist */,
+				3556D8F5111C568446E86E55841916A2 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-umbrella.h */,
+				A8DEC7CDDD181C36E0563C1755B3A816 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig */,
+				23F9E8E3B6679987451ECB10D983BB54 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig */,
+			);
+			name = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests";
+			path = "Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests";
+			sourceTree = "<group>";
+		};
+		EC7702C353F95E41A5A064924CC6DA69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE699B37FB7F0BCD2E8A97FFC1CF2DC /* Pods_ERSnapchatCreativeKit.framework */,
+				BC31622E71DD11D7BF311FB1D6D8FB0E /* Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework */,
+				6EBA5E0503F5F8323AD0998D70388AC3 /* Pods_ERSnapchatCreativeKitTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4121CD9A7D79798959CD7DCDE33989E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				072C36BDCFE32256DB5A943595813206 /* SnapSDK-xcframeworks.sh */,
+				BE2297DD1E6824EB602C1EC27590137B /* SnapSDK.debug.xcconfig */,
+				675667D62C40C1602EE774C76825E9B1 /* SnapSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapSDK";
+			sourceTree = "<group>";
+		};
+		FDF159D51DD33586B3CBB131B7136213 /* SCSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				05FFDE381E3E0C12412D9F50BBDB034E /* Frameworks */,
+			);
+			name = SCSDKCoreKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A28359C397DF65003503850461206B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA8DB33EC0E7E20DFD50FB576A49F08 /* Pods-ERSnapchatCreativeKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B719D5D28ED7C40DB460E4C271EEE4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3430BC120561DF57DD3DDC997C7B6B /* Pods-ERSnapchatCreativeKitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943E038654478D4504A3E3D763B2F5A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A729F75624CFC8C9D398FE9DDFD0B1FA /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C25AD2EBDD98E064BFAA1FEAB401B2B /* Pods-ERSnapchatCreativeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81AF11333D908C65987FB57C63948ECF /* Build configuration list for PBXNativeTarget "Pods-ERSnapchatCreativeKitTests" */;
+			buildPhases = (
+				3B719D5D28ED7C40DB460E4C271EEE4D /* Headers */,
+				6132E48C0939A5949A8C6394573B1B6E /* Sources */,
+				2BB31C16D751B1E9BB4753EA0D034679 /* Frameworks */,
+				92926A75C282826EF330E4BDC2D51E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE0B9C598669E306322105E81B48A1C /* PBXTargetDependency */,
+			);
+			name = "Pods-ERSnapchatCreativeKitTests";
+			productName = "Pods-ERSnapchatCreativeKitTests";
+			productReference = 6EBA5E0503F5F8323AD0998D70388AC3 /* Pods_ERSnapchatCreativeKitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5902A8AF3DED73D08B303F00D630421 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C3D2D2BDF2700816FBECBD544CB900 /* Build configuration list for PBXNativeTarget "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests" */;
+			buildPhases = (
+				943E038654478D4504A3E3D763B2F5A4 /* Headers */,
+				2ABB870CB6C20C5067AECD4F79F74FC7 /* Sources */,
+				E3B43D8C2C73504656DF80211551D09D /* Frameworks */,
+				AA7E69228D9108F04B1169CF04544A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5461CBA391DE2C062DE78E899BB8A84 /* PBXTargetDependency */,
+			);
+			name = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests";
+			productName = "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests";
+			productReference = BC31622E71DD11D7BF311FB1D6D8FB0E /* Pods_ERSnapchatCreativeKit_ERSnapchatCreativeKitUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E84F5EAE8EF7784BE32653E7149EA646 /* Pods-ERSnapchatCreativeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCB6A8039BB7B9AEC05B95950707705 /* Build configuration list for PBXNativeTarget "Pods-ERSnapchatCreativeKit" */;
+			buildPhases = (
+				1A28359C397DF65003503850461206B5 /* Headers */,
+				06C892EB56152EB7B5D1AED22405D5B7 /* Sources */,
+				8FC06B82E5D3117AB91E2CC8DC64AAD5 /* Frameworks */,
+				4D07127C5665100FDC2D1D5A15C763F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B689816486E4703B77400E0470D3E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ERSnapchatCreativeKit";
+			productName = "Pods-ERSnapchatCreativeKit";
+			productReference = 2BE699B37FB7F0BCD2E8A97FFC1CF2DC /* Pods_ERSnapchatCreativeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EC7702C353F95E41A5A064924CC6DA69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84F5EAE8EF7784BE32653E7149EA646 /* Pods-ERSnapchatCreativeKit */,
+				B5902A8AF3DED73D08B303F00D630421 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests */,
+				6C25AD2EBDD98E064BFAA1FEAB401B2B /* Pods-ERSnapchatCreativeKitTests */,
+				DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D07127C5665100FDC2D1D5A15C763F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92926A75C282826EF330E4BDC2D51E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E69228D9108F04B1169CF04544A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F772B2C8C34CF210EE913C01ACB399DE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SnapSDK/SnapSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SnapSDK/SnapSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SnapSDK/SnapSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C892EB56152EB7B5D1AED22405D5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EBC26FC093E14B4583BBB50173C22 /* Pods-ERSnapchatCreativeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ABB870CB6C20C5067AECD4F79F74FC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED5B014553100CED545A4C606E79BE3 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6132E48C0939A5949A8C6394573B1B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE255DF72FC8459DAF5FD50085770FB /* Pods-ERSnapchatCreativeKitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BE0B9C598669E306322105E81B48A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ERSnapchatCreativeKit";
+			target = E84F5EAE8EF7784BE32653E7149EA646 /* Pods-ERSnapchatCreativeKit */;
+			targetProxy = BB071B861235BDAA78929D51A9A3B2B0 /* PBXContainerItemProxy */;
+		};
+		B6B689816486E4703B77400E0470D3E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapSDK;
+			target = DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */;
+			targetProxy = D90B49CB563871773BE33373FA8B9EF8 /* PBXContainerItemProxy */;
+		};
+		F5461CBA391DE2C062DE78E899BB8A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapSDK;
+			target = DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */;
+			targetProxy = 46CA65F60608F0DC93CF7AA92649B506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FD60BB46ED3D85B8A4A9581F712934B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E539CB0580359C4F9E365ED0F85B5701 /* Pods-ERSnapchatCreativeKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERSnapchatCreativeKitTests/Pods-ERSnapchatCreativeKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERSnapchatCreativeKitTests/Pods-ERSnapchatCreativeKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1024C688FA1AFAA1ADA8FBEC61867A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675667D62C40C1602EE774C76825E9B1 /* SnapSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78BA7536B5F6F1117AA57D74A9586390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A82A11418DEC085AA99A865F58F0A17 /* Pods-ERSnapchatCreativeKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F22DBADECAACCF90FED6437C0060AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B07629FBC64459DDD9E9262F37F79F /* Pods-ERSnapchatCreativeKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERSnapchatCreativeKit/Pods-ERSnapchatCreativeKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B811687DE821B7C5EF160243105E56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F9E8E3B6679987451ECB10D983BB54 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A284B6C18C6C7724E255696B3E53E6AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2297DD1E6824EB602C1EC27590137B /* SnapSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2B27B53BC6E7B87A06ADCC791BAA875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DEC7CDDD181C36E0563C1755B3A816 /* Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests/Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E5F76F23F7A009A8B993CFC400797E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B2383CA1C4677AC1996E85970E804B /* Pods-ERSnapchatCreativeKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERSnapchatCreativeKitTests/Pods-ERSnapchatCreativeKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERSnapchatCreativeKitTests/Pods-ERSnapchatCreativeKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C3D2D2BDF2700816FBECBD544CB900 /* Build configuration list for PBXNativeTarget "Pods-ERSnapchatCreativeKit-ERSnapchatCreativeKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B27B53BC6E7B87A06ADCC791BAA875 /* Debug */,
+				9B811687DE821B7C5EF160243105E56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3E930B47B3509C9DC0EBBC4C0A5D9C /* Build configuration list for PBXAggregateTarget "SnapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A284B6C18C6C7724E255696B3E53E6AD /* Debug */,
+				1024C688FA1AFAA1ADA8FBEC61867A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81AF11333D908C65987FB57C63948ECF /* Build configuration list for PBXNativeTarget "Pods-ERSnapchatCreativeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F76F23F7A009A8B993CFC400797E5B /* Debug */,
+				0FD60BB46ED3D85B8A4A9581F712934B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCB6A8039BB7B9AEC05B95950707705 /* Build configuration list for PBXNativeTarget "Pods-ERSnapchatCreativeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F22DBADECAACCF90FED6437C0060AC9 /* Debug */,
+				78BA7536B5F6F1117AA57D74A9586390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
